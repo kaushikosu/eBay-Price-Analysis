@@ -1,7 +1,7 @@
 # Historical-Price-Analysis
 Show sold eBay listings, graphs, and analysis result.
-Play with my implementation here:
-http://jumbojimbo.ddns.net/tool/analytics/index_analytics.php
+Play with demo here:  
+http://jumbojimbo.ddns.net/tool/eBayLookUp_legacy/
 
 # What it does?
 The analytics.php script will cal eBay to retrieve a list of sold listings corresponding to your search query.
