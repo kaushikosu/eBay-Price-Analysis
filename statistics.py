@@ -4,10 +4,7 @@ from __future__ import division
 
 # The next 4 line gives PHP permission to use matplotlib in python.
 import os
-os.environ[ 'MPLCONFIGDIR' ] = '/tmp'
 import matplotlib
-matplotlib.use('agg')
-
 import json
 import csv
 import sys
@@ -17,6 +14,11 @@ import matplotlib.pyplot as plt
 
 from subprocess import call
 from numpy import *
+
+
+os.environ[ 'MPLCONFIGDIR' ] = '/tmp'
+matplotlib.use('agg')
+
 #call(['whoami'])
 priceColumn = 15
 
